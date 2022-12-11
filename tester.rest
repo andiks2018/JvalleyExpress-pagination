@@ -3,12 +3,12 @@ POST http://localhost:9000/api/user/create
 Content-Type: application/json
 
 {
-    "username" : "evalia",
-    "email" : "evalia@gmail.com",
-    "password" : "1qazxsw23edcvfr4!"
+    "username" : "andi1",
+    "email" : "andi1@gmail.com",
+    "password" : "1qazxsw23edcvfr4"
 }
 
 
 ### read all user
-GET http://localhost:9000/api/users/read
+GET http://localhost:9000/api/users/read?page=3&limit=10
 Content-Type: application/json
